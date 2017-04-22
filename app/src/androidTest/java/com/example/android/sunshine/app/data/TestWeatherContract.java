@@ -31,7 +31,7 @@ public class TestWeatherContract extends AndroidTestCase {
     /*
         Students: Uncomment this out to test your weather location function.
      */
-   public void testBuildWeatherLocation() {
+    public void testBuildWeatherLocation() {
         Uri locationUri = WeatherContract.WeatherEntry.buildWeatherLocation(TEST_WEATHER_LOCATION);
         assertNotNull("Error: Null Uri returned.  You must fill-in buildWeatherLocation in " +
                         "WeatherContract.",
